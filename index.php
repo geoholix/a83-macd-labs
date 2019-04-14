@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "amri.database.windows.net";
-    $user = "admindb";
-    $pass = "bi5millah!";
-    $db = "amridb";
+    $host = "";
+    $user = "";
+    $pass = "";
+    $db = "";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
