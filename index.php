@@ -27,9 +27,9 @@
  </form>
  <?php
     $host = "amri.database.windows.net";
-    $user = "admindb";
-    $pass = "bi5millah!";
-    $db = "amridb";
+    $user = "";
+    $pass = "";
+    $db = "";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
